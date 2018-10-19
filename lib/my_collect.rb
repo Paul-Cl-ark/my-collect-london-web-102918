@@ -3,9 +3,9 @@ def my_collect(stuff)
   collected = []
   while 
     i < stuff.length
-      collected << yield stuff[i]
+      collected.push(yield stuff[i])
     i += 1
   end
-  collected
+  #collected
 end
 
