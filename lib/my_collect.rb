@@ -4,6 +4,7 @@ def my_collect(stuff)
     i > stuff.length
       yield stuff[i]
     i += 1
-  end 
+  end
+  stuff
 end
 
