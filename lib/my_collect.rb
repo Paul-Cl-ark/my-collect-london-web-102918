@@ -6,7 +6,9 @@ def my_collect(stuff)
       yield stuff[i]
       collected.push(stuff[i])
     i += 1
-  end
+  
   collected
+  end
+  
 end
 
