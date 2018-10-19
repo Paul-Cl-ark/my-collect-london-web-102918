@@ -4,7 +4,7 @@ def my_collect(stuff)
   while 
     i > stuff.length
       yield stuff[i]
-      collected << stuff[i]
+      collected.push(stuff[i])
     i += 1
   end
   collected
