@@ -3,7 +3,7 @@ def my_collect(stuff)
   collected = []
   while 
     i > stuff.length
-      yield collected << stuff[i]
+      yield stuff[i]
     i += 1
   end
   collected
