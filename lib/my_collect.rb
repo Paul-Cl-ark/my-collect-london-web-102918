@@ -6,6 +6,6 @@ def my_collect(stuff)
       collected.push(yield stuff[i])
     i += 1
   end
-  #collected
+  collected
 end
 
